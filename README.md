@@ -11,44 +11,45 @@ Exemplo de configuração:
 </p>
 
 <code>
-	var site = {
-			config: {
-				trackAllPages: true, 
-			},
+	
+var site = {
+	config: {
+		trackAllPages: true, 
+	},
 
-			pages: {
-		
-				solucao: {
-					element: "solucao",
-					pageview: {
-						allow: false,
-						status: false
-					}
-				},
+	pages: {
 
-				features: {
-					element: "features",
-					pageview: {
-						allow: false,
-						status: false
-					}
-				},
-
-				projects: {
-					element: "projects",
-					pageview: {
-						allow: false,
-						status: false
-					}
-				},
-
-				contact: {
-					element: "contact",
-					pageview: {
-						allow: false,
-						status: false
-					}
-				}
+		solucao: {
+			element: "solucao",
+			pageview: {
+				allow: false,
+				status: false
 			}
-		}; 
+		},
+
+		features: {
+			element: "features",
+			pageview: {
+				allow: false,
+				status: false
+			}
+		},
+
+		projects: {
+			element: "projects",
+			pageview: {
+				allow: false,
+				status: false
+			}
+		},
+
+		contact: {
+			element: "contact",
+			pageview: {
+				allow: false,
+				status: false
+			}
+		}
+	}
+}; 
 </code>
