@@ -54,6 +54,3 @@ var site = {
 }; 
 </code>
 
-**OBS: **
-
-**Esse código ainda não está 100% desenvolvido. **
